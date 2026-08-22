@@ -39,12 +39,14 @@ Submit the following:
 3. **Screenshot of the GitHub repository** showing:
    - The file `practice.txt`
 
-     **Answers*
+     **Answers**
 
 [Git Repo Link](https://github.com/maulik2609/Day-5-Practice.git)
 
    
-<img width="1333" height="191" alt="image" src="https://github.com/user-attachments/assets/89207aad-3ff7-4b29-8cbd-9230eafba126" />
+<img width="1920" height="1128" alt="Screenshot 2026-08-22 190511" src="https://github.com/user-attachments/assets/59080d57-d54e-40af-8af1-9803d15418a4" />
+
+
 
 
     
