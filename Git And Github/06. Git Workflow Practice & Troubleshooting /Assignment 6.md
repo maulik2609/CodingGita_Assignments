@@ -43,11 +43,11 @@ Submit the following:
 
 [Git Repo Link](https://github.com/maulik2609/Day-5-Practice.git)
 
-     <img width="1920" height="1128" alt="Screenshot 2026-08-22 190511" src="https://github.com/user-attachments/assets/c93e886a-5841-48ad-ba21-8b594a558c47" />
+    <img width="1920" height="1128" alt="Screenshot 2026-08-22 190511" src="https://github.com/user-attachments/assets/fbec7ede-5458-4595-bb94-1bc350121dcb" />
 
 
-     <img width="1897" height="933" alt="Screenshot 2026-08-22 190918" src="https://github.com/user-attachments/assets/4ebde641-69bd-4757-a001-aa2f81d90d95" />
 
+    
 
    - The commit message “Added practice file”
 
