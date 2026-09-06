@@ -31,6 +31,53 @@ https://github.com/maulik2609/git-reset-revert-practice
 <img width="960" height="559" alt="Screenshot 2026-09-05 095815" src="https://github.com/user-attachments/assets/feb84fe7-6d42-41db-bd61-a429fccdb40b" />
 
 
+## Assignment 2 – Difference between --soft, --mixed and --hard (Medium)
+
+**Goal:** Clearly see how the three reset modes behave differently.
+
+1. Create a new file `demo.txt` and make **two commits** on it.
+2. Perform the following one by one (create fresh commits each time if needed):
+
+   **A. Soft Reset**
+   ```bash
+   git reset --soft HEAD~1
+   git status
+   ```
+
+   **B. Mixed Reset**
+   ```bash
+   git reset --mixed HEAD~1
+   git status
+   ```
+
+   **C. Hard Reset**
+   ```bash
+   git reset --hard HEAD~1
+   git status
+   ```
+
+3. write the short answers in your own words in your notebook:
+   - What is the difference between `--soft`, `--mixed`, and `--hard`?
+   - Which one keeps changes staged?
+   - Which one discards the changes completely?
+   - When should you avoid `--hard`?
+
+**Submit:**
+- Screenshots of `git status` after each type of reset (`--soft`, `--mixed`, `--hard`)
+- Photos of written answers.
+- Repository link
+
+  **Answers**
+  <img width="960" height="558" alt="Screenshot 2026-09-06 172155" src="https://github.com/user-attachments/assets/3f161bbb-faac-4e21-b8e4-6c950eee6d25" />
+  <img width="960" height="538" alt="Screenshot 2026-09-06 172617" src="https://github.com/user-attachments/assets/ca132a0b-d65e-401f-ae0a-4e715a6fc6d4" />
+  <img width="960" height="564" alt="Screenshot 2026-09-06 172832" src="https://github.com/user-attachments/assets/a13c65b9-d29f-4f75-814d-507867de9418" />
+
+https://github.com/maulik2609/Reset-Assignment.git
+
+
+
+
+
 
 
 
