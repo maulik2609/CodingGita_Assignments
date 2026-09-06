@@ -68,7 +68,8 @@ https://github.com/maulik2609/git-reset-revert-practice
 - Repository link
 
   **Answers**
-  <img width="960" height="558" alt="Screenshot 2026-09-06 172155" src="https://github.com/user-attachments/assets/3f161bbb-faac-4e21-b8e4-6c950eee6d25" />
+  <img width="1570" height="1600" alt="WhatsApp Image 2026-09-06 at 5 15 41 PM" src="https://github.com/user-attachments/assets/da1d078a-366f-4fe5-a579-8ff3b5d34b7e" />
+<img width="960" height="558" alt="Screenshot 2026-09-06 172155" src="https://github.com/user-attachments/assets/3f161bbb-faac-4e21-b8e4-6c950eee6d25" />
   <img width="960" height="538" alt="Screenshot 2026-09-06 172617" src="https://github.com/user-attachments/assets/ca132a0b-d65e-401f-ae0a-4e715a6fc6d4" />
   <img width="960" height="564" alt="Screenshot 2026-09-06 172832" src="https://github.com/user-attachments/assets/a13c65b9-d29f-4f75-814d-507867de9418" />
 
