@@ -75,6 +75,39 @@ https://github.com/maulik2609/git-reset-revert-practice
 
 https://github.com/maulik2609/Reset-Assignment.git
 
+## Assignment 3 – Practice git revert (Medium)
+
+**Goal:** Safely undo a commit using `git revert` instead of reset.
+
+1. Make sure you have at least 2–3 commits on `main`.
+2. Choose the latest commit and revert it:
+   ```bash
+   git revert HEAD
+   ```
+   (Save the commit message that Git opens)
+3. Run:
+   ```bash
+   git log --oneline
+   ```
+4. Observe that a **new commit** was created (the history was not deleted).
+5. write the short answers in your own words in your notebook:
+   - What does `git revert` do?
+   - How is it different from `git reset`?
+   - When is `git revert` safer than `git reset`?
+
+**Submit:**
+- Screenshot of `git log --oneline` showing the revert commit
+- Photos of written answers.
+- Repository link
+
+**Answers**
+https://github.com/maulik2609/Assignment-16.git
+<img width="960" height="558" alt="Screenshot 2026-09-07 195241" src="https://github.com/user-attachments/assets/6812e392-ed5f-4932-89c8-2fabf24445d1" />
+<img width="1534" height="522" alt="WhatsApp Image 2026-09-06 at 5 41 17 PM" src="https://github.com/user-attachments/assets/0f3dd3ca-528e-45e6-ae81-d1995b6d5174" />
+
+
+
+
 
 
 
