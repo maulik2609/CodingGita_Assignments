@@ -105,6 +105,33 @@ https://github.com/maulik2609/Assignment-16.git
 <img width="960" height="558" alt="Screenshot 2026-09-07 195241" src="https://github.com/user-attachments/assets/6812e392-ed5f-4932-89c8-2fabf24445d1" />
 <img width="1534" height="522" alt="WhatsApp Image 2026-09-06 at 5 41 17 PM" src="https://github.com/user-attachments/assets/0f3dd3ca-528e-45e6-ae81-d1995b6d5174" />
 
+## Assignment 4 – Combined Practice + Safety Rules (Hard)
+
+**Goal:** Combine reset and revert knowledge and demonstrate safe practices.
+
+1. Create a small project flow:
+   - Make 3 commits on a file called `project.txt`.
+2. Use `git reset --soft HEAD~1` and then create a new improved commit.
+3. Later, use `git revert` on one commit and show that history is preserved.
+4. Write short answers in your notebook:
+   - When should you use `git reset --soft`?
+   - When should you use `git reset --hard`? (and why be careful)
+   - When should you prefer `git revert`?
+   - What do `HEAD`, `HEAD~1`, and `HEAD~2` mean?
+
+**Submit:**
+- Screenshot of final `git log --oneline`
+- Photos of written answers.
+- Repository link
+
+
+**Answers**
+<img width="1027" height="1280" alt="WhatsApp Image 2026-09-09 at 8 11 34 PM" src="https://github.com/user-attachments/assets/314cb7bc-b7ef-4885-890a-0ccb5fff02b4" />
+https://github.com/maulik2609/Practice-.git
+<img width="960" height="559" alt="Screenshot 2026-09-09 200508" src="https://github.com/user-attachments/assets/1e8c20d3-f16b-4a57-9f66-5ce2310a3198" />
+
+
+
 
 
 
