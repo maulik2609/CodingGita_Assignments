@@ -143,6 +143,7 @@ Submit the following:
  <img width="948" height="431" alt="Screenshot 2026-09-14 171028" src="https://github.com/user-attachments/assets/d1dee32f-89ad-4966-9dd6-4522653863f9" />
  <img width="948" height="499" alt="Screenshot 2026-09-14 171637" src="https://github.com/user-attachments/assets/7ba01389-abb4-4932-9daf-9f6178c05cb7" />
  <img width="343" height="411" alt="Screenshot 2026-09-14 172118" src="https://github.com/user-attachments/assets/0589b574-2072-42ea-8088-c1ea357c7cda" />
+<img width="687" height="382" alt="Screenshot 2026-09-14 172706" src="https://github.com/user-attachments/assets/6734f259-036f-4119-bd67-9e8dde23b82b" />
 
  https://github.com/maulik2609/TAG-2.git
  
