@@ -65,6 +65,47 @@ https://github.com/maulik2609/Assignment-17-.git
 
 https://github.com/maulik2609/Assig.17-2.git
 
+## Assignment 3 – Revert Options + Conceptual Questions
+
+**Goal:** Practice important flags and understand the concepts.
+
+### Practical Part
+1. Demonstrate any two of the following commands with a real commit:
+   - `git revert --no-edit <commit_id>`
+   - `git revert --no-commit <commit_id>`
+   - `git revert --abort`
+2. Take screenshots of the commands and their results.
+
+### Theoretical Part (Write in Notebook)
+Write short and correct answers for the following:
+
+1. What does `git revert` do?
+2. Why is `git revert` safer than `git reset` on a shared branch?
+3. What is a Modify/Delete conflict? When can it occur during revert?
+4. What is the difference between `git revert --abort` and `git revert --quit`?
+5. Write one major difference each between:
+   - `git restore`
+   - `git reset`
+   - `git revert`
+
+**Submit:**
+- Screenshots of the two practical commands you tried
+- Clear photos of the written answers from your notebook
+- Repository link
+
+  **Answers**
+  <img width="947" height="551" alt="Screenshot 2026-09-14 105143" src="https://github.com/user-attachments/assets/31b21fd6-ca89-4a4f-b07e-b3a8bd550de6" />
+  <img width="960" height="536" alt="Screenshot 2026-09-14 105251" src="https://github.com/user-attachments/assets/07b2e0f7-b0cb-451d-95f0-3cb5b14ab0a7" />
+<img width="1013" height="1280" alt="WhatsApp Image 2026-09-14 at 11 19 06 AM" src="https://github.com/user-attachments/assets/bc95cdd4-6df2-48b8-9117-e0f725d9e835" />
+<img width="1600" height="1169" alt="WhatsApp Image 2026-09-14 at 11 19 37 AM" src="https://github.com/user-attachments/assets/5b11ad50-cdd8-40ff-98e2-8bdf1bfcd3dd" />
+https://github.com/maulik2609/PRACTICAL.git
+
+
+
+
+
+  
+
 
 
 
