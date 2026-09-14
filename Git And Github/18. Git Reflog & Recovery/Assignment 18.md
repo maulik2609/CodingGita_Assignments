@@ -27,5 +27,31 @@ Practice recovering lost commits and reworking old commits using `git reflog`, d
 https://github.com/maulik2609/Assignment-18.git
 
 
+## 📋 Part 2: Reworking Old Commit (5 Points)
+
+### Task
+1. Create a new repository called `reflog-practice-part2`
+2. Create 3 commits:
+   - **C0:** `README.md` with just title
+   - **C1:** `app.js` with basic function
+   - **C2:** `utils.js` with helper functions
+3. Realize you need to add description to README (C0) without losing C1 and C2
+4. Create a branch at C0: `git switch -c rework/readme-update <C0-hash>`
+5. Update README.md with description, commit
+6. Merge the branch back to main
+7. Verify C0, C1, and C2 are all preserved
+
+**Answers**
+<img width="960" height="564" alt="Screenshot 2026-09-14 120958" src="https://github.com/user-attachments/assets/8fe02f65-99bf-4583-bb5e-218f91630f3b" />
+<img width="947" height="559" alt="Screenshot 2026-09-14 121022" src="https://github.com/user-attachments/assets/0b6b71a0-5e65-4163-8423-d7f932f4c0e7" />
+<img width="960" height="558" alt="Screenshot 2026-09-14 121219" src="https://github.com/user-attachments/assets/b3ea2cf2-2e63-4da4-8464-bb8f98de702b" />
+https://github.com/maulik2609/reflog-practice-part2.git
+
+
+
+
+
+
+
 
 
