@@ -50,6 +50,69 @@ https://github.com/maulik2609/rebase-assign.git
 <img width="960" height="557" alt="Screenshot 2026-09-16 173859" src="https://github.com/user-attachments/assets/7d5559f4-467a-4f29-b7f9-625d4dde986e" />
 
 
+# Q3. Rebase Conflict
+
+### Scenario: Student Management System
+
+You are developing a student management system.
+
+Create your own Git scenario using:
+
+* `main` branch
+* `student-profile` branch
+
+### Tasks
+
+1. Create the `student-profile` branch from `main`.
+2. On `student-profile`, make **two commits** related to the student profile.
+3. Switch to `main` and make a change to the **same line of the same file**.
+4. Switch back to `student-profile`.
+5. Rebase `student-profile` onto `main`:
+
+```bash
+git rebase main
+```
+
+6. Resolve the rebase conflict.
+7. Complete the rebase using:
+
+```bash
+git add .
+git rebase --continue
+```
+
+8. Create another small rebase-conflict scenario and demonstrate:
+
+```bash
+git rebase --abort
+```
+
+Explain what happened to the branch after aborting.
+
+9. Demonstrate:
+
+```bash
+git rebase --skip
+```
+
+Explain which commit was skipped.
+
+10. Finally, display the commit history using following command and submit the screenshot:
+
+```bash
+git log --oneline --graph --all
+```
+
+** Submission ** : GitHub Repo link + Screenshots + Photos of written answers.
+
+**Answers**
+
+https://github.com/maulik2609/rebase-prac.git
+<img width="953" height="542" alt="Screenshot 2026-09-16 175638" src="https://github.com/user-attachments/assets/f244be39-98ad-48a8-9f25-b7c669c57300" />
+<img width="960" height="564" alt="Screenshot 2026-09-16 175940" src="https://github.com/user-attachments/assets/278674d0-1f12-4b9d-9801-dc9322701b9f" />
+![Uploading Screenshot 2026-09-16 180009.png…]()
+
+
 
 
 
