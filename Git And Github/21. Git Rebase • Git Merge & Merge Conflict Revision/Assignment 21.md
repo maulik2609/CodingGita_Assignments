@@ -110,7 +110,7 @@ git log --oneline --graph --all
 https://github.com/maulik2609/rebase-prac.git
 <img width="953" height="542" alt="Screenshot 2026-09-16 175638" src="https://github.com/user-attachments/assets/f244be39-98ad-48a8-9f25-b7c669c57300" />
 <img width="960" height="564" alt="Screenshot 2026-09-16 175940" src="https://github.com/user-attachments/assets/278674d0-1f12-4b9d-9801-dc9322701b9f" />
-![Uploading Screenshot 2026-09-16 180009.png…]()
+<img width="960" height="551" alt="Screenshot 2026-09-16 180009" src="https://github.com/user-attachments/assets/946a0fea-a30b-4990-ac9e-e760c670a54a" />
 
 
 
