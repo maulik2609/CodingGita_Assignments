@@ -67,5 +67,44 @@ https://github.com/maulik2609/cherry-pick.git
 <img width="960" height="562" alt="Screenshot 2026-09-20 112338" src="https://github.com/user-attachments/assets/ca99956c-55dd-476e-b2e4-6c4b6330d168" />
 
 
+# Q3. Practical — Cherry-Pick Multiple Commits
+
+Create your own project scenario.
+
+Examples:
+
+* E-commerce website
+* Library Management System
+* Hospital Management System
+* College Management System
+* Food Delivery Application
+
+### Tasks
+
+1. Create a Git repository.
+2. Create a `main` branch with an initial commit.
+3. Create a meaningful feature branch.
+4. Make at least **3 commits** on the feature branch.
+5. Switch back to `main`.
+6. Cherry-pick **any two specific commits** from the feature branch.
+
+Use:
+
+```bash
+git cherry-pick <commit_id1> <commit_id2>
+```
+
+7. Display the history:
+
+```bash
+git log --oneline --graph --all
+
+```
+**Answers**
+
+https://github.com/maulik2609/Assignment-Cherry-Pick.git
+<img width="960" height="541" alt="Screenshot 2026-09-20 113920" src="https://github.com/user-attachments/assets/405dcdce-8870-4c7d-bbaf-0f294e9c96d3" />
+
+
    
 
