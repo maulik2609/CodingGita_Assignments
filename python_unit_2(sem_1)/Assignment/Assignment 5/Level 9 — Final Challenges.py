@@ -68,3 +68,12 @@ print("Consonants:", consonants)
 print("Uppercase:", uppercase)
 print("Lowercase:", lowercase)
 print("Even Index Characters:", even_index)
+
+
+# Output for Hello World
+# Total Characters: 11
+# Vowels: 3
+# Consonants: 7
+# Uppercase: 2
+# Lowercase: 8
+# Even Index Characters: 6
