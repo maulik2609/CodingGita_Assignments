@@ -575,3 +575,174 @@ console.log("" !== 0); //True
 console.log(NaN !== NaN); //True
 //5.
 input !=0 //True
+
+
+//PART - C 
+
+//Question -no. 5.1 ------------
+
+console.log(78 > 40); // true
+
+//Question -no. 5.2 ------------
+
+console.log(35 > 28); // true
+
+//Question -no. 5.3 ------------
+
+console.log(15 > 10); // true
+console.log(10 > 15); // false
+console.log(10 > 10); // false
+
+//Question -no. 5.4 ------------
+
+console.log("20" > 15);  // true
+console.log("5" > "10"); // true
+console.log("abc" > 10); // false
+
+//Question - no. 5.5 ------------
+
+console.log(null > 0);      // false
+console.log(undefined > 0); // false
+
+//Question - 5.6 -------------
+
+let stocks = 120;
+let required = 85;
+
+console.log(stocks > required); // true
+
+//Ouestion - 5.7 ----------
+
+console.log(true > false); // true
+console.log("10" > "2");   // false
+console.log(NaN > 5);      // false
+
+//Question - 6.1 -----------
+
+console.log(42 < 50); // true
+
+//Question -no. 6.2 ------------
+
+console.log(16 < 18); // true
+
+//Question -no. 6.3 ------------
+
+console.log(8 < 12); // true
+console.log(20 < 10); // false
+console.log(7 < 7);   // false
+
+//Question -no. 6.4 ------------
+
+console.log("8" < 10);    // true
+console.log("20" < "3");  // true
+console.log("hello" < 5); // false
+
+//Question -no. 6.5 ------------
+
+console.log(null < 0);      // false
+console.log(undefined < 0); // false
+
+//Question -no. 6.6 ------------
+
+console.log(375 < 500); // true
+
+//Question -no. 6.7 ------------
+
+console.log(false < true); // true
+console.log("5" < "15");   // false
+console.log(NaN < 10);     // false
+
+//Question -no. 7.1 ------------
+
+console.log(75 >= 75); // true
+
+// Question -no. 7.2 ------------
+
+console.log(300 >= 300); // true
+
+// Question -no. 7.3 ------------
+
+console.log(25 >= 25); // true
+console.log(30 >= 25); // true
+console.log(20 >= 25); // false
+
+// Question -no. 7.4 ------------
+
+console.log("25" >= 25);  // true
+console.log("10" >= "2"); // false
+console.log(null >= 0);   // true
+
+// Question -no. 7.5 ------------
+
+console.log(undefined >= 0); // false
+
+// Question -no. 7.6 ------------
+
+console.log(8 >= 8); // true
+
+// Question -no. 7.7 ------------
+
+console.log(true >= 1);  // true
+console.log("" >= 0);     // true
+console.log(NaN >= NaN); // false
+
+// Question -no. 8.1 ------------
+
+console.log(60 <= 60); // true
+
+// Question -no. 8.2 ------------
+
+console.log(39 <= 40); // true
+
+// Question -no. 8.3 ------------
+
+console.log(15 <= 20); // true
+console.log(20 <= 15); // false
+console.log(15 <= 15); // true
+
+// Question -no. 8.4 ------------
+
+console.log("15" <= 20);  // true
+console.log("30" <= "5"); // true
+console.log(null <= 0);   // true
+
+// Question -no. 8.5 ------------
+
+console.log(undefined <= 0); // false
+
+// Question -no. 8.6 ------------
+
+console.log(10 < 10); // false
+
+// Question -no. 8.7 ------------
+
+console.log(false <= 0); // true
+console.log("" <= 0);    // true
+console.log(NaN <= 5);   // false
+
+//Mixed Practice
+
+// Question -no. 1 ------------
+
+console.log(18 >= 18); // true
+console.log(32 < 35);  // true
+console.log(90 > 85);  // true
+
+// Question -no. 2 ------------
+
+console.log(10 > 5 && 5 < 10);    // true
+console.log("10" >= 10);          // true
+console.log(null <= undefined);   // false
+console.log("5" < "10" && 5 > 2); // false
+
+// Question -no. 3 ------------
+
+console.log(500 >= 499); // true
+console.log(500 < 499);  // false
+console.log(500 > 499);  // true
+console.log(500 - 499);  // 1
+
+// Question -no. 4 ------------
+
+console.log("10" > "2"); // false
+console.log(10 > 2);     // true
