@@ -746,3 +746,86 @@ console.log(500 - 499);  // 1
 
 console.log("10" > "2"); // false
 console.log(10 > 2);     // true
+
+
+//PART - E INCREMENT/DECREMENT OPERATOR
+
+//Question -1. ------------
+let counters = 5;
+counters++;
+console.log(counters); // 6
+
+//Question -2. ------------
+let livess = 3;
+livess--;
+console.log(livess); // 2
+
+//Question -3. ------------
+let scores = 10;
+scores++;
+console.log(scores); // 11
+
+//Question -4. ------------
+let items = 8;
+items--;
+console.log(items); // 7
+
+//Question -5. ------------
+let counts = 0;
+counts++;
+counts++;
+console.log(counts); // 2
+
+//Question -6. ------------
+let xt = 5;
+let yt = xt++;
+console.log(xt, yt); // 6 5
+// x++ pehle purani value y ko deta hai, phir x increase hota hai.
+
+//Question -7. ------------
+let av = 5;
+let bv = ++av;
+console.log(av, bv); // 6 6
+// ++a pehle a ko increase karta hai, phir nayi value b ko deta hai.
+
+//Question -8. ------------
+let livesss = 3;
+let previousLives = livesss--;
+console.log(livesss, previousLives); // 2 3
+
+//Question -9. ------------
+let attempts = 0;
+let currentAttempts = ++attempts;
+console.log(attempts, currentAttempts); // 1 1
+
+//Question -10. ------------
+let points = 100;
+points++;
+points--;
+console.log(points); // 100
+
+//Question -11. ------------
+let lm = 10;
+let mm = l++;
+let nm = ++lm;
+console.log(lm, mm, nm); // 12 10 12
+
+//Question -12. ------------
+let aq = 5;
+let bq = aq-- + ++aq;
+console.log(aq, bq); // 5 10
+
+//Question -13. ------------
+let mw = 7;
+let nw = --mw + mw++;
+console.log(mw, nw); // 7 13
+
+//Question -14. ------------
+let pa = 3;
+let qa = pa++ + ++pa + pa;
+console.log(pa, qa); // 5 13
+
+//Question -15. ------------
+let values = 0;
+values = values++ + ++values;
+console.log(values); // 2
