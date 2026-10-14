@@ -829,3 +829,169 @@ console.log(pa, qa); // 5 13
 let values = 0;
 values = values++ + ++values;
 console.log(values); // 2
+
+// 1. Logical AND (&&)
+
+//Question 1
+let username = "admin";
+let password = 1234;
+console.log(username === "admin" && password === 1234); // true
+
+//Question 2
+let isLoggedIn = true;
+let hasPermission = true;
+console.log(isLoggedIn && hasPermission); // true
+
+//Question 3
+let inStock = true;
+let pricee = 800;
+console.log(inStock && pricee < 1000); // true
+
+//Question 4
+let markss = 75;
+let attendance = 80;
+console.log(markss > 65 && attendance > 70); // true
+
+//Question 5
+let isWeekend = true;
+let isHoliday = false;
+console.log(isWeekend && isHoliday); // false
+
+//Question 6
+let io = 0;
+let bo = 10;
+let solu= a && b;
+console.log(solu); // 0
+
+//Question 7
+let xc = 5;
+let yc = 10;
+let Sol = (xc > 3 && yc) || 0;
+console.log(Sol); // 10
+
+//Question 8
+let pl = "Hello";
+let ql = "";
+let rl = "World";
+let Answer = pl && ql && rl;
+console.log(Answer); // ""
+
+//Question 9
+let Val = 5;
+let Condition = Val && (Val = 0);
+console.log(Condition); // 0
+console.log(Val); // 0
+
+//Question 10
+let xf = 10;
+let yf = 20;
+let REsult = (xf && yf) && (xf > yf);
+console.log(REsult); // false
+
+
+// 2. Logical OR (||)
+
+//Question 1
+let passwordCorrect = true;
+let otpValid = false;
+console.log(passwordCorrect || otpValid); // true
+
+//Question 2
+let isMember = false;
+let hasCoupon = true;
+console.log(isMember || hasCoupon); // true
+
+//Question 3
+let age = 16;
+let height = 155;
+console.log(age > 18 || height > 150); // true
+
+//Question 4
+let emailGiven = true;
+let phoneGiven = false;
+console.log(emailGiven || phoneGiven); // true
+
+//Question 5
+let Score = 900;
+let timeBonus = true;
+console.log(Score > 1000 || timeBonus); // true
+
+//Question 6
+// let a = 0;
+// let b = false;
+// let c = "";
+// let d = null;
+// let e = 42;
+// let result = a || b || c || d || e;
+// console.log(result); // 42
+
+//Question 7
+let xv = "Hello" || 0;
+let yv = 0 || "Hi";
+console.log(xv, yv); // Hello Hi
+
+//Question 8
+let ay = 10;
+let by = 20;
+let resultant = (ay < 5) || (by > 15);
+console.log(resultant); // true
+
+//Question 9
+let Valu = 5;
+let condition = val || (val = 0);
+console.log(condition); // 5
+console.log(Valu); // 5
+
+//Question 10
+let xa = "" || 0 || false || null || undefined || "OK";
+console.log(xa); // OK
+
+
+// 3. Logical NOT (!)
+
+//Question 1
+let isBanned = false;
+console.log(!isBanned); // true
+
+//Question 2
+let isCompleted = false;
+console.log(!isCompleted); // true
+
+//Question 3
+let isOn = true;
+console.log(!isOn); // false
+
+//Question 4
+let isActive = false;
+console.log(!isActive); // true
+
+//Question 5
+let isReadOnly = false;
+console.log(!isReadOnly); // true
+
+//Question 6
+let k = 0;
+let v = 1;
+console.log(!k, !v); // true false
+
+//Question 7
+let vv = "Hello";
+let ya = "";
+console.log(!vv, !ya); // false true
+
+//Question 8
+let valu = 5;
+let Results = !valu;
+console.log(Results); // false
+
+//Question 9
+let ax = 10;
+let bx = 20;
+let Ans = !(ax && bx);
+console.log(Ans); // false
+
+//Question 10
+let mn = 0;
+let op = 1;
+let sol = !(mn || op);
+console.log(result); // false
