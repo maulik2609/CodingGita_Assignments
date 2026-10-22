@@ -81,7 +81,7 @@ for (let i = 1; i <= 8; i++) {
 let temperatures = [28, 32, 25, 40, 18, 35];
 let count = 0;
 
-for (let i = 0; i < temperatures.length; i++) {
+for (let i = 0; i < temperatures.length-1; i++) {
     if (temperatures[i] > 30) {
         count++;
     }
@@ -95,7 +95,7 @@ console.log(count);
 let num = 4729;
 let summ = 0;
 
-for (; num > 0; num = Math.floor(num / 10)) {
+for (; num > 0; num =(num / 10)) {
     summ += num % 10;
 }
 
@@ -117,7 +117,7 @@ let str = "JavaScript";
 let result = "";
 
 for (let i = 0; i < str.length; i++) {
-    let ch = str[i].toLowerCase();
+    let ch = str[i];
 
     if (ch !== "a" && ch !== "e" && ch !== "i" &&
         ch !== "o" && ch !== "u") {
@@ -133,7 +133,7 @@ console.log(result);
 let arr = [12, 45, 23, 67, 34, 89, 10];
 let largest = arr[0];
 
-for (let i = 1; i < arr.length; i++) {
+for (let i = 1; i < arr.length-1; i++) {
     if (arr[i] > largest) {
         largest = arr[i];
     }
