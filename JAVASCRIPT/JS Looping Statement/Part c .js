@@ -35,7 +35,7 @@ for (let i = 1; i <= 5; i++) {
 
 let sum = 0;
 
-for (let i = 1; i++) {
+for (let i = 1; i++;){
     sum += i;
 
     if (sum > 100) {
@@ -43,6 +43,7 @@ for (let i = 1; i++) {
         break;
     }
 }
+
 
 
 //Question -no. 4 ------------
