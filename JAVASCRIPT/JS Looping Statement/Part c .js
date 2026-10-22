@@ -4,7 +4,7 @@
 
 let arr1 = [2, 4, 6, 7, 9, 10];
 
-for (let i = 0; i < arr1.length; i++) {
+for (let i = 0; i < arr1.length-1; i++) {
     if (arr1[i] === 7) {
         console.log("Index =", i);
         break;
@@ -18,7 +18,7 @@ let correctPassword = "1234";
 let password = "";
 
 for (let i = 1; i <= 5; i++) {
-    password = prompt("Enter password:");
+    password = "1111";
 
     if (password === correctPassword) {
         console.log("Access granted");
@@ -35,7 +35,7 @@ for (let i = 1; i <= 5; i++) {
 
 let sum = 0;
 
-for (let i = 1; ; i++) {
+for (let i = 1; i++) {
     sum += i;
 
     if (sum > 100) {
@@ -50,24 +50,11 @@ for (let i = 1; ; i++) {
 let names = ["Rahul", "Amit", "Sahil", "Karan", "Suresh"];
 
 for (let i = 0; i < names.length; i++) {
-    if (names[i][0] === "S") {
+    if (names[i] === "S") {
         console.log(names[i]);
         break;
     }
 }
-
-
-//Question -no. 5 ------------
-
-for (let i = 1; i <= 50; i++) {
-    if (i > 20 && Number.isInteger(Math.sqrt(i))) {
-        console.log("Stopped at =", i);
-        break;
-    }
-
-    console.log(i);
-}
-
 
 //Part C-b] continue inside a for Loop
 
@@ -87,7 +74,7 @@ for (let i = 1; i <= 30; i++) {
 let numbers = [10, -5, 20, -3, 15, -8];
 let positiveSum = 0;
 
-for (let i = 0; i < numbers.length; i++) {
+for (let i = 0; i < numbers.length-1; i++) {
     if (numbers[i] < 0) {
         continue;
     }
