@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICC World Cup 2011</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(rgba(10, 15, 30, 0.85), rgba(10, 15, 30, 0.85)), 
+                        url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1920&fit=crop') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .scorecard-wrapper {
+            width: 1000px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+            overflow: hidden;
+            padding: 30px;
+            position: relative;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 24px;
+        }
+
+        .title-group h1 {
+            font-size: 32px;
+            font-weight: 900;
+            color: #111111;
+            letter-spacing: -0.5px;
+            margin-bottom: 4px;
+        }
+
+        .title-group p {
+            font-size: 16px;
+            font-weight: 600;
+            color: #666666;
+        }
+
+        .brand-logo {
+            font-size: 26px;
+            font-weight: 900;
+            color: #111111;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .brand-logo span {
+            color: #e64a19;
+        }
+
+        .brand-logo .ball-icon {
+            width: 14px;
+            height: 14px;
+            background-color: #e64a19;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .score-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .table-header-bar {
+            background-color: #e64a19;
+            color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: 700;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .columns-header {
+            background-color: #f8f9fa;
+            color: #333333;
+            font-size: 14px;
+            font-weight: 700;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .score-table th, .score-table td {
+            padding: 12px 16px;
+        }
+
+        .score-table tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            font-size: 14px;
+        }
+
+        .score-table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .batsman-name {
+            color: #1976d2;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .dismissal-info {
+            color: #6c757d;
+        }
+
+
+        .col-num {
+            text-align: center;
+            width: 60px;
+            font-weight: 600;
+        }
+
+        .summary-row {
+            font-weight: 700;
+            color: #212529;
+            background-color: #ffffff;
+        }
+
+        .summary-row td {
+            padding: 14px 16px;
+        }
+
+        .not-bat-row td {
+            color: #495057;
+            font-weight: 500;
+        }
+
+        .not-bat-names {
+            color: #1976d2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="scorecard-wrapper">
+
+        <div class="header-top">
+            <div class="title-group">
+                <h1>ICC WORLD CUP 2011</h1>
+                <p>India Vs SriLanka ScoreCard</p>
+            </div>
+            <div class="brand-logo">
+                CricP<span>ro</span><div class="ball-icon"></div>
+            </div>
+        </div>
+
+        <table class="score-table">
+            <thead>
+                <tr>
+                    <th colspan="6">
+                        <div class="table-header-bar">
+                            <span>India Innings</span>
+                            <span>277- 4 (48.2)</span>
+                        </div>
+                    </th>
+                </tr>
+                <tr class="columns-header">
+                    <th>Batsman</th>
+                    <th class="col-num">R</th>
+                    <th class="col-num">B</th>
+                    <th class="col-num">4s</th>
+                    <th class="col-num">6s</th>
+                    <th class="col-num">SR</th>
+                </tr>
+            </thead>
+            <tbody>
+             
+                <tr>
+                    <td>
+                        <span class="batsman-name">Virender Sehwag</span>
+                        <span class="dismissal-info">&nbsp;&nbsp;&nbsp;&nbsp; lbw b L Malinga</span>
+                    </td>
+                    <td class="col-num">0</td>
+                    <td class="col-num">2</td>
+                    <td class="col-num">0</td>
+                    <td class="col-num">0</td>
+                    <td class="col-num">0.00</td>
+                </tr>
+   
+                <tr>
+                    <td>
+                        <span class="batsman-name">Sachin Tendulkar</span>
+                        <span class="dismissal-info">&nbsp;&nbsp;&nbsp;&nbsp; c K Sangakkara b L Malinga</span>
+                    </td>
+                    <td class="col-num">18</td>
+                    <td class="col-num">14</td>
+                    <td class="col-num">2</td>
+                    <td class="col-num">0</td>
+                    <td class="col-num">128.57</td>
+                </tr>
+   
+                <tr>
+                    <td>
+                        <span class="batsman-name">Gautam Gambhir</span>
+                        <span class="dismissal-info">&nbsp;&nbsp;&nbsp;&nbsp; b T Perera</span>
+                    </td>
+                    <td class="col-num">97</td>
+                    <td class="col-num">122</td>
+                    <td class="col-num">9</td>
+                    <td class="col-num">0</td>
+                    <td class="col-num">79.51</td>
+                </tr>
+        
+                <tr>
+                    <td>
+                        <span class="batsman-name">Virat Kohli</span>
+                        <span class="dismissal-info">&nbsp;&nbsp;&nbsp;&nbsp; c & b T Dilshan</span>
+                    </td>
+                    <td class="col-num">35</td>
+                    <td class="col-num">49</td>
+                    <td class="col-num">4</td>
+                    <td class="col-num">0</td>
+                    <td class="col-num">71.43</td>
+                </tr>
+   
+                <tr>
+                    <td>
+                        <span class="batsman-name">MS Dhoni (c & wk)</span>
+                        <span class="dismissal-info">&nbsp;&nbsp;&nbsp;&nbsp; not out</span>
+                    </td>
+                    <td class="col-num">91</td>
+                    <td class="col-num">79</td>
+                    <td class="col-num">8</td>
+                    <td class="col-num">2</td>
+                    <td class="col-num">115.19</td>
+                </tr>
+     
+                <tr>
+                    <td>
+                        <span class="batsman-name">Yuvraj Singh</span>
+                        <span class="dismissal-info">&nbsp;&nbsp;&nbsp;&nbsp; not out</span>
+                    </td>
+                    <td class="col-num">21</td>
+                    <td class="col-num">24</td>
+                    <td class="col-num">2</td>
+                    <td class="col-num">0</td>
+                    <td class="col-num">87.50</td>
+                </tr>
+           
+                <tr class="summary-row">
+                    <td>Extras</td>
+                    <td colspan="5" style="text-align: left; font-weight: normal;">15 (b 1, lb 6, w 8, nb 0, p 0)</td>
+                </tr>
+  
+                <tr class="summary-row">
+                    <td>Total</td>
+                    <td colspan="5" style="text-align: left;">277 (4 wkts, 48.2 Ov)</td>
+                </tr>
+               
+                <tr class="not-bat-row">
+                    <td>Did not bat</td>
+                    <td colspan="5">
+                        <span class="not-bat-names">Suresh Raina, Harbhajan Singh, Zaheer Khan, Munaf Patel, S Sreesanth</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

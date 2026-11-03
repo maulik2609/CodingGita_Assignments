@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #121921;
+            
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .search{
+            height: 30px;
+            width: 600px;
+            display: flex;
+            justify-content: space-between;
+            border: solid black 1px;
+            align-items: center;
+            background-color: white;
+            border-radius: 5px;
+
+            
+        }
+        .search p{
+            border: solid 1px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            color: rgb(13, 13, 13);
+        }
+        .location{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .nav2{
+            background-color: #243040;
+            display: flex;
+            height: 25px;
+            padding: 5px;
+            justify-content: space-between;
+
+        }
+        .textH{
+            display: flex;
+            font-size: 14px;
+            color: white;
+            gap: 20px;
+            align-items: center;
+        }
+        .main1{
+            height: 370px;
+            background-image: url(/amazonbg.png);
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 300px;
+            border: solid 1px black;
+
+        }
+        .card{
+            height: 300px;
+            background-color: white;
+            width: 330px;
+        }
+        .hero{
+            height: 230px;
+            width: 330px;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+
+
+        }
+        .card3{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            width: 230px;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        .card4{
+            width: 150px;
+            height: 150px;
+            background-color: #88E4B1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .card2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="nav1">
+        <img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/logo.png?raw=true">
+        <div class="location">
+        <p class="light" style="font-size: 12px;color: white;">Hello</p>
+        <p style="font-size: 14px; color: white;" >Selict your address</p>
+        </div>
+        <div class="search" ><p>All <img src="down arrow.png" alt="" style="color:black ;"></p><div style="height: 30px; width: 35px; display: flex; align-items: center; background-color: rgb(234, 234, 101); justify-content: center; border-radius: 5px;"><img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/search%20icon.png?raw=true"></div></div>
+        <div class="flag" style="display: flex;"><img src="indian flag.png" alt=""><img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/down%20arrow.png?raw=true" alt="" style="color: white;"></div>
+        <div style="display: flex; flex-direction: column; color: white;"><p style="font-size: 12px;">Hello.signin</p><p style="font-size: 14px;">Account & list <img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/down%20arrow.png?raw=true" alt=""></p></div>
+        <div style="display: flex; flex-direction: column; color: white;"><p style="font-size: 12px;">Return</p><p style="font-size: 14px;">& order</p></div>
+        <div style="display: flex; "><img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/cart%20icon.png?raw=true" alt=""><p style="font-size: 12px; color: white; padding-top: 20px;">cart</p></div>
+    </div>
+    <div class="nav2">
+        <div class="textH">
+            <div style="display: flex; flex-direction: row; gap: 10px;"><img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/ham%20burger%20icon.png?raw=true" alt="" style="height: 15px; width: 15px;"><p>All</p></div>
+            <p class="text">Best sellers</p>
+            <p class="text">Mobiles</p>
+            <p class="text">Customer service</p>
+            <p class="text">Today's Deal</p>
+            <p class="text">Fashion</p>
+            <p class="text">Electronics</p>
+            <p class="text">Books</p>
+            <p class="text">Prime<img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/down%20arrow.png?raw=true">
+            </p>
+            <p class="text">New release</p>
+            <p class="text">Home & kitchen</p>
+            <p class="text">Amazon pay</p>
+
+        </div>
+        <div style="display: flex; color: white; gap: 50px;" ><img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/lion.png?raw=true" alt=""><div style="display: flex;"><p>Prime Day</p><div style="padding-top: 12px; font-size: 12px;"><p>23<sup>rd</sup>-24 <sup>th</sup> july</p></div></div></div>
+    </div>
+    <div class="main1">
+        <div class="card">
+            <div style="width: 250px; font-weight: bold;padding-left: 12px; padding-top: 15px;">Upgrade your home | Amazon Brand & more</div>
+            <div class="hero">
+            <div class="card1"><img style="height: 100px; width: 150px;" src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/image%2017.png?raw=true" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/image%2018.png?raw=true" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/image%2019.png?raw=true" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/image%2020.png?raw=true" alt=""></div>
+            </div>
+
+        </div>
+         <div class="card">
+            <div style="width: 250px; font-weight: bold;padding-left: 12px; padding-top: 15px;">Revamp your home in styel</div>
+            <div class="hero">
+            <div class="card1"><img style="height: 100px; width: 150px;" src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/image%2021.png?raw=true" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/image%2022.png?raw=true" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/image%2024.png?raw=true" alt=""></div>
+            <div class="card1"><img style="height: 100px; width: 150px;" src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/image%2025.png?raw=true" alt=""></div>
+            </div>
+        </div> 
+        <div class="card">
+            <div  style="width: 250px; font-weight: bold;padding-left: 40px; padding-top: 15px;">Up to 70% off|Clearance store</div>
+            <div class="hero"><img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/image%2017.png?raw=true" alt="" style="height: 210px; width: 250px; display: flex; justify-content: center; align-items: center;"></div>
+        </div>
+        <div class="card2">
+            <div class="card3"><div style="width: 200px; ">Sign in for your best experience</div><div style="width: 200px; height: 25px; background-color: #FED813; font-size: 10px;display: flex; align-items: center; justify-content: center; border-radius: 8px;">Sign in securely</div></div>
+            <div class="card4">
+                <p>laptop</p><br><p>From Top Brands</p>
+                <img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/image%2017.png?raw=true" alt="" style="height: 100px; width: 100px;">
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+        
+        
+        
+
+    
+</div>
+   
+</body>
+</html>
